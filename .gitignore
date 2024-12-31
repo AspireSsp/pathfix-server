@@ -1,0 +1,81 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.pid.lock
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Build directories
+dist/
+build/
+.tmp/
+out/
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.sublime-workspace
+*.sublime-project
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+__MACOSX/
+
+# Optional npm cache directory
+.npm/
+
+# Yarn files
+.yarn/
+.yarnrc.yml
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE and editor settings
+*.iml
+*.iws
+*.ipr
+
+# Test coverage reports
+coverage/
+*.lcov
+
+# Miscellaneous
+*.bak
+*.tmp
+*.temp
+*.log
+*.out
+
+# Generated files
+*.min.js
+*.map
+
+# Optional files for specific tools or services
+functions/node_modules/
+firebase-debug.log
+.firebaserc
+
+# Next.js (if applicable)
+.next/
