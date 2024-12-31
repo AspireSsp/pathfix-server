@@ -23,7 +23,7 @@ app.post('/tweet', async (req, res) => {
     }
 
     try {
-        const url = `${API_URL}?user_id=${USER_ID}&public_key=${PUBLIC_KEY}`
+        const url = `${API_URL}?user_id=${USER_ID}&public_key=${PUBLIC_KEY}&pfx_nonce=${PFX_NONCE}`
         console.log("url---->",url);
         
         const response = await axios.post(url,
